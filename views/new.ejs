@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<%- include("../partials/head.ejs") %>
+<body>
+	<%- include('../partials/nav.ejs') %>
+<div>
+	<form action="/blogs" method="POST">
+		<label>Enter Title</label>
+		<input type="text" name="title">
+		<label>Enter Description</label>
+		<input type="text" name="description">
+		<button>Submit</button>
+	</form>
+</div>
+</body>
+</html>
